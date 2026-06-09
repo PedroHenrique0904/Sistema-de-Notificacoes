@@ -6,7 +6,7 @@ interface Notificacao {
 
 class NotificacaoEmail implements Notificacao {
 
-    @Override
+    
     public void enviar(String mensagem) {
         System.out.println("Enviando e-mail: " + mensagem);
     }
@@ -14,7 +14,7 @@ class NotificacaoEmail implements Notificacao {
 
 class NotificacaoSms implements Notificacao {
 
-    @Override
+    
     public void enviar(String mensagem) {
         System.out.println("Enviando SMS: " + mensagem);
     }
@@ -22,7 +22,7 @@ class NotificacaoSms implements Notificacao {
 
 class NotificacaoWhatsApp implements Notificacao {
 
-    @Override
+    
     public void enviar(String mensagem) {
         System.out.println("Enviando WhatsApp: " + mensagem);
     }
